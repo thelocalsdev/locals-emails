@@ -1,0 +1,27 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--assistant
+        img(width="161", height="150", src="img/icons/assistant.png", alt="")
+      .EmailH1._EmailH1._EmailH1--mb40 Новая заявка! Личный помощник, Москва
+      table._EmailTableDetails
+        tr
+          td
+            ._EmailText <b>Что вы ищете:</b> 1, 2
+        tr
+          td
+            ._EmailText <b>Цена:</b> от 20000 до 35000
+        tr
+          td
+            ._EmailText <b>Где:</b> Крылатское
+        tr
+          td
+            ._EmailText <b>Когда въезжать:</b> На этой неделе
+        tr
+          td
+            ._EmailText <b>Email (заявка):</b> <a class="EmailLink _EmailLink _EmailLink--no-underline _EmailLink--green" href="mailto:gilbert_labadie@konopelski.net" title="Написать письмо">gilbert_labadie@konopelski.net</a>
+        tr
+          td
+            ._EmailText <b>Email (уч. зап.):</b> <a class="EmailLink _EmailLink _EmailLink--no-underline _EmailLink--green" href="mailto:user3@example.com" title="Написать письмо">user3@example.com</a>

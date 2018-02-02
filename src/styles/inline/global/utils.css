@@ -1,0 +1,35 @@
+._u-Color-black {
+  color: var(--color-black);
+}
+
+._u-FontFamily-base {
+  font-family: var(--font-family-base);
+}
+
+._u-TextAlign-left {
+  text-align: left;
+}
+
+._u-TextAlign-center {
+  text-align: center;
+}
+
+._u-Width-202 {
+  width: 202px;
+}
+
+._u-Width-252 {
+  width: 252px;
+}
+
+._u-MaxWidth-370 {
+  width: 370px;
+}
+
+._u-MaxWidth-500 {
+  max-width: 500px;
+}
+
+._u-Display-inlineBlock {
+  display: inline-block;
+}

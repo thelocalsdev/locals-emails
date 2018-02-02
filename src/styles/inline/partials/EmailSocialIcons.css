@@ -1,0 +1,27 @@
+._EmailSocialIcons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+._EmailSocialIcons__item {
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  display: inline-block;
+  vertical-align: top;
+
+  a {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,30 @@
+._EmailText {
+  color: var(--color-base);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+._EmailText--mb8 {
+  margin-bottom: 8px;
+}
+
+._EmailText--mb15 {
+  margin-bottom: 15px;
+}
+
+._EmailText--mb18 {
+  margin-bottom: 18px;
+}
+
+._EmailText--mb20 {
+  margin-bottom: 20px;
+}
+
+._EmailText--mb30 {
+  margin-bottom: 30px;
+}
+
+._EmailText--mb40 {
+  margin-bottom: 40px;
+}

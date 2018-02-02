@@ -1,0 +1,32 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--yes
+        img(width="162", height="162", src="img/icons/yes.png", alt="")
+      .EmailH1._EmailH1 Вы зарегистрировались
+      ._EmailText._EmailText--mb20 Можно начинать искать квартиру мечты. Вот несколько советов, как ускорить поиск и&nbsp;сделать его эффективным.
+    .EmailHr._EmailHr._u-MaxWidth-500
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--go
+        img(width="242", height="162", src="img/icons/go.png", alt="")
+      ._EmailH1 Купите подписку
+      ._EmailText._EmailText--mb20._u-TextAlign-left Вы&nbsp;получите полный доступ к&nbsp;объявлениям напрямую от&nbsp;собственников квартир&nbsp;&mdash; никаких комиссий риэлторам! Наша база пополняется ежедневно, а&nbsp;модераторы старательно проверяют каждый объект.
+      ._EmailBlock__cta
+        a.EmailButton.EmailButton--greenOutline._EmailButton._EmailButton--sm._EmailButton--green._EmailButton--outline(href="#", title="Узнать больше", target="_blank") Узнать больше
+    .EmailHr._EmailHr._u-MaxWidth-500
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--mail
+        img(width="162", height="150", src="img/icons/mail.png", alt="")
+      ._EmailH1 Подпишитесь на&nbsp;свежие объявления
+      ._EmailText._EmailText--mb20._u-TextAlign-left Чтобы узнавать о&nbsp;новых квартирах первым, настройте нужные фильтры и&nbsp;получайте свежие варианты на&nbsp;почту.
+      ._EmailBlock__cta
+        a.EmailButton.EmailButton--greenOutline._EmailButton._EmailButton--sm._EmailButton--green._EmailButton--outline(href="#", title="Подписаться", target="_blank") Подписаться
+    .EmailBlock._EmailBlock._EmailBlock--assistant
+      .EmailAssistant._EmailAssistant
+        ._EmailCircleIcon._EmailCircleIcon--assistant
+          img(width="161", height="150", src="img/icons/assistant_black.png", alt="")
+        ._EmailH1 Доверьте поиск нам
+        ._EmailText._EmailText--mb20._u-TextAlign-left Некогда искать? Оформите услугу &laquo;Личный помощник&raquo;. Просто сообщите необходимые параметры и&nbsp;получайте на&nbsp;почту персональную подборку проверенных квартир со&nbsp;всего интернета. Ваши шансы приехать на&nbsp;просмотр первыми значительно повышаются, ведь личный помощник видит объявления еще до&nbsp;того, как они попадут на&nbsp;сайт. Мы&nbsp;мониторим все площадки с&nbsp;объявлениями об&nbsp;аренде и&nbsp;будем искать, пока не&nbsp;найдем!
+        a.EmailButton.EmailButton--blackOutline._EmailAssistant__button._EmailButton._EmailButton--sm._EmailButton--black._EmailButton--outline(href="#", title="Оформить подписку", target="_blank") Оформить подписку

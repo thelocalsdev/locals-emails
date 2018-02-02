@@ -1,0 +1,5 @@
+._EmailTableDetails {
+  > tr > td {
+    padding-bottom: 8px;
+  }
+}

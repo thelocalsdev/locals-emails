@@ -1,0 +1,56 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--go
+        img(width="242", height="162", src="img/icons/go.png", alt="")
+      .EmailH1._EmailH1 Еще не&nbsp;нашли квартиру?
+      ._EmailText._EmailText--mb30._u-TextAlign-left Купите подписку! Вы&nbsp;получите полный доступ к&nbsp;объявлениям напрямую от&nbsp;собственников квартир&nbsp;&mdash; никаких комиссий риэлторам! Наша база пополняется ежедневно, а&nbsp;модераторы старательно проверяют каждый объект.
+      table._EmailTableUL
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText Сначала мы&nbsp;проверяем телефон по&nbsp;внутренней базе риэлторов. Если его там нет&nbsp;&mdash; отлично, идем дальше.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText Убеждаемся, что квартиру сдает именно собственник. Для этого мы&nbsp;звоним по&nbsp;указанному номеру и&nbsp;задаем ряд проверочных вопросов. Если все&nbsp;ок, объявление попадает на&nbsp;сайт.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText Не&nbsp;найдя, что искали, большинство арендаторов подписывается на&nbsp;ежедневную рассылку с&nbsp;новыми предложениями на&nbsp;рынке. Ваше объявление будет рекомендовано всем, кто ищет квартиру или комнату поблизости.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText При малейших подозрениях модератор запрашивает данные свидетельства о&nbsp;собственности на&nbsp;квартиру.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText
+              b Все надежно!
+      a.EmailButton.EmailButton--greenOutline._EmailButton._EmailButton--sm._EmailButton--green._EmailButton--outline(href="#", title="Узнать больше", target="_blank") Узнать больше
+    .EmailBlock._EmailBlock._EmailBlock--assistant
+      .EmailAssistant._EmailAssistant
+        ._EmailCircleIcon._EmailCircleIcon--assistant
+          img(width="161", height="150", src="img/icons/assistant_black.png", alt="")
+        ._EmailH1 Оформите услугу &laquo;Личный помощник&raquo;
+        ._EmailText._EmailText--mb8._u-TextAlign-left Вам не&nbsp;придется мучительно мониторить сайты и&nbsp;бесчисленные паблики с&nbsp;объявлениями об&nbsp;аренде. Просто задайте параметры и&nbsp;получайте на&nbsp;почту персональную подборку проверенных квартир со&nbsp;всего интернета. Результат гарантирован!
+        ._EmailText._EmailText--mb18._u-TextAlign-left Суровая статистика гласит:
+        table._EmailTableUL
+          tr
+            td._EmailTableUL__cell._EmailTableUL__cell--mark
+              img(width="21", height="21", src="img/tick_black.png", alt="")
+            td._EmailTableUL__cell._EmailTableUL__cell--text
+              ._EmailText Мы&nbsp;находим квартиру мечты, в&nbsp;среднем, за&nbsp;12&nbsp;дней.
+          tr
+            td._EmailTableUL__cell._EmailTableUL__cell--mark
+              img(width="21", height="21", src="img/tick_black.png", alt="")
+            td._EmailTableUL__cell._EmailTableUL__cell--text
+              ._EmailText Личный помощник сэкономит вам не&nbsp;менее 20&nbsp;000 рублей и&nbsp;2&nbsp;583&nbsp;137 нервных клеток. Берегите себя!
+        a.EmailButton.EmailButton--blackOutline._EmailAssistant__button._EmailButton._EmailButton--sm._EmailButton--black._EmailButton--outline(href="#", title="Оформить подписку", target="_blank") Оформить подписку

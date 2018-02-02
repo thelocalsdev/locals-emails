@@ -1,0 +1,54 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock._EmailBlock--mb80
+      ._EmailCircleIcon._EmailCircleIcon--assistant
+        img(width="161", height="150", src="img/icons/assistant.png", alt="")
+      .EmailH1._EmailH1 Привет, это Локалс
+      ._EmailText._EmailText--mb40 Вы&nbsp;оставили заявку на&nbsp;услугу &laquo;Личный помощник&raquo;.<br /> Хотим рассказать, как она работает.
+      table._EmailTableOL
+        tr
+          td._EmailTableOL__cell._EmailTableOL__cell--mark
+            ._EmailNumber
+              table
+                tr
+                  td 1
+          td._EmailTableOL__cell._EmailTableOL__cell--text
+            ._EmailText <b>Индивидуальный запрос</b><br /> Просто сообщите, где и&nbsp;какую квартиру хотите найти. Мы&nbsp;учитываем даже самые необычные пожелания.
+        tr
+          td._EmailTableOL__cell._EmailTableOL__cell--mark
+            ._EmailNumber
+              table
+                tr
+                  td 2
+          td._EmailTableOL__cell._EmailTableOL__cell--text
+            ._EmailText <b>Самая полная база</b><br /> Мы&nbsp;мониторим все площадки и&nbsp;базы аренды в&nbsp;интернете. И&nbsp;соцсети тоже!
+        tr
+          td._EmailTableOL__cell._EmailTableOL__cell--mark
+            ._EmailNumber
+              table
+                tr
+                  td 3
+          td._EmailTableOL__cell._EmailTableOL__cell--text
+            ._EmailText <b>Только актуальные варианты</b><br /> Личный помощник прозванивает каждое объявление, прежде чем отправить вам.
+        tr
+          td._EmailTableOL__cell._EmailTableOL__cell--mark
+            ._EmailNumber
+              table
+                tr
+                  td 4
+          td._EmailTableOL__cell._EmailTableOL__cell--text
+            ._EmailText <b>Услуга &laquo;Безопасная сделка&raquo;&nbsp;&mdash; в&nbsp;подарок!</b><br /> Сделаем официальный запрос в&nbsp;Росреестр, чтобы убедиться, что квартиру сдает настоящий собственник.
+        tr
+          td._EmailTableOL__cell._EmailTableOL__cell--mark
+            ._EmailNumber
+              table
+                tr
+                  td 5
+          td._EmailTableOL__cell._EmailTableOL__cell--text
+            ._EmailText <b>Отбираем квартиры под запрос</b><br /> Каждый день мы&nbsp;вручную отбираем подходящие под ваш запрос квартиры и&nbsp;отправляем вам на&nbsp;почту или в&nbsp;мессенджер. Личный помощник работает с&nbsp;вами, пока вы&nbsp;не&nbsp;въедете в&nbsp;новую квартиру.
+      ._EmailBlock__cta._EmailBlock__cta--mt20
+        ._u-Display-inlineBlock._u-Width-202
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--block._EmailButton--green(href="#", title="Купить за 4 900 руб.", target="_blank") Купить за&nbsp;4&nbsp;900&nbsp;руб.
+        ._EmailBlock__ctaText._EmailBlock__ctaText--after._EmailText В&nbsp;цену также включена 30-дневная подписка на&nbsp;Локалс

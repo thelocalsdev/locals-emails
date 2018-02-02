@@ -1,0 +1,12 @@
+._EmailTableUL {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+._EmailTableUL__cell {
+  padding-bottom: 15px;
+}
+
+._EmailTableUL__cell--mark {
+  padding-right: 10px;
+}

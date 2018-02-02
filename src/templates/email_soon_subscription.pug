@@ -1,0 +1,32 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--clock
+        img(width="161", height="150", src="img/icons/clock.png", alt="")
+      .EmailH1._EmailH1 Подписка заканчивается
+      ._EmailText._EmailText--mb20 Ваша подписка заканчивается через 6&nbsp;дней. Мы&nbsp;очень хотим, чтобы вы&nbsp;нашли жилье мечты, поэтому дарим вам скидку 690 рублей на&nbsp;услугу &laquo;Личный помощник&raquo;.
+      ._EmailBlock__cta
+        ._u-Display-inlineBlock._u-Width-252
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--block._EmailButton--green(href="#", title="Купить за 2600 1300 руб.", target="_blank") Купить за&nbsp;<span class="_EmailOldPrice">2600</span> 1300&nbsp;руб.
+        ._EmailBlock__ctaText._EmailBlock__ctaText--after._EmailText Торопитесь, скидка действует 48&nbsp;часов!
+    .EmailBlock._EmailBlock._EmailBlock--assistant._EmailBlock--mt60
+      .EmailAssistant._EmailAssistant
+        ._EmailCircleIcon._EmailCircleIcon--assistant
+          img(width="161", height="150", src="img/icons/assistant_black.png", alt="")
+        ._EmailH1 Услуга &laquo;Личный помощник&raquo;
+        ._EmailText._EmailText--mb8._u-TextAlign-left Личный помощник сделает все за&nbsp;вас. Просто сообщите необходимые параметры и&nbsp;получайте на&nbsp;почту персональную подборку проверенных квартир со&nbsp;всего интернета. Ваши шансы приехать на&nbsp;просмотр первыми значительно повышаются, ведь личный помощник видит объявления еще до&nbsp;того, как они попадут на&nbsp;сайт.<br /> Мы&nbsp;мониторим все площадки с&nbsp;объявлениями об&nbsp;аренде и&nbsp;будем искать, пока не&nbsp;найдем.
+        ._EmailText._EmailText--mb18._u-TextAlign-left Суровая статистика гласит:
+        table._EmailTableUL
+          tr
+            td._EmailTableUL__cell._EmailTableUL__cell--mark
+              img(width="21", height="21", src="img/tick_black.png", alt="")
+            td._EmailTableUL__cell._EmailTableUL__cell--text
+              ._EmailText Мы&nbsp;находим квартиру мечты, в&nbsp;среднем, за&nbsp;12&nbsp;дней.
+          tr
+            td._EmailTableUL__cell._EmailTableUL__cell--mark
+              img(width="21", height="21", src="img/tick_black.png", alt="")
+            td._EmailTableUL__cell._EmailTableUL__cell--text
+              ._EmailText Личный помощник сэкономит вам не&nbsp;менее 20&nbsp;000 рублей и&nbsp;2&nbsp;583&nbsp;137 нервных клеток. Берегите себя!
+        a.EmailButton.EmailButton--blackOutline._EmailAssistant__button._EmailButton._EmailButton--sm._EmailButton--black._EmailButton--outline(href="#", title="Оформить услугу со скидкой", target="_blank") Оформить услугу со&nbsp;скидкой

@@ -1,0 +1,12 @@
+._EmailH1 {
+  margin-bottom: 14px;
+  color: var(--color-base);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: var(--font-family-base);
+}
+
+._EmailH1--mb40 {
+  margin-bottom: 40px;
+}

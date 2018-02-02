@@ -1,0 +1,130 @@
+._EmailLayout {
+  background-color: var(--color-white);
+}
+
+._EmailLayoutInner {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+._EmailLayoutContainer {
+  width: 100%;
+  min-width: 280px;
+  max-width: 680px;
+}
+
+._EmailLayoutHeader {
+  > tr > td {
+    padding-top: 10px;
+  }
+}
+
+._EmailLayoutHeader__container {
+  max-width: 600px;
+
+  > tr > td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--color-hr);
+  }
+}
+
+._EmailLayoutHeader__cols {
+
+}
+
+._EmailLayoutHeader__col {
+  vertical-align: bottom;
+}
+
+._EmailLayoutHeader__col--left {
+  padding-right: 10px;
+}
+
+._EmailLayoutHeader__col--right {
+  width: 60%;
+  text-align: right;
+}
+
+._EmailLayoutHeader__logoImg {
+  width: 100%;
+  max-width: 150px;
+  vertical-align: middle;
+}
+
+._EmailLayoutHeader__desc {
+  color: #b7b7b7;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+._EmailLayoutContent {
+  > tr > td {
+    text-align: center;
+  }
+}
+
+._EmailLayoutFooter__container {
+  > tr > td {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid var(--color-hr);
+  }
+}
+
+._EmailLayoutFooter__row--help {
+  padding-top: 20px;
+}
+
+._EmailLayoutFooter__row--subscription {
+  padding-top: 25px;
+}
+
+._EmailLayoutFooter__appStores {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+._EmailLayoutFooter__appStoresItem {
+  width: 50%;
+  max-width: 190px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: middle;
+
+  img {
+    width: 100%;
+  }
+}
+
+._EmailLayoutFooter__appStoresItem--apple-store {
+  &,
+  img {
+    max-width: 190px;
+  }
+}
+
+._EmailLayoutFooter__appStoresItem--google-play {
+  &,
+  img {
+    max-width: 170px;
+  }
+}
+
+._EmailLayoutFooter__text {
+  color: var(--color-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+._EmailLayoutFooter__text--subscription {
+  color: #b8b8b8;
+
+  a {
+    border-bottom: 1px solid #d4d4d4;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+}

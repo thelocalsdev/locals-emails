@@ -1,0 +1,35 @@
+{
+  "name": "locals-emails",
+  "version": "1.0.0",
+  "description": "The emails of Thelocals",
+  "repository": "git@github.com:thelocalsdev/locals-emails.git",
+  "author": "Volosojui <alessandro.kalinin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-email-remove-unused-css": "^2.1.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inline-css": "^3.1.2",
+    "gulp-postcss": "^7.0.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-replace": "^0.6.1",
+    "gulp-style-inject": "^0.1.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.0",
+    "gulp-gh-pages": "https://github.com/tekd/gulp-gh-pages.git",
+    "postcss-css-variables": "^0.8.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^11.0.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-simple-vars": "^4.1.0",
+    "precss": "^3.1.0",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node" : ">=6.0.0"
+  }
+}

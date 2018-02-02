@@ -1,0 +1,21 @@
+._EmailNumber {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #252525;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: var(--font-family-base);
+  text-align: center;
+
+  table {
+    width: 100%;
+    height: 100%;
+
+    > tr > td {
+      text-align: center;
+      vertical-align: middle;
+    }
+  }
+}

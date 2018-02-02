@@ -1,0 +1,63 @@
+._EmailBlock {
+  width: 100%;
+  min-width: 280px;
+  max-width: 480px;
+  margin-bottom: 60px;
+
+  &:first-child {
+    margin-top: 50px;
+  }
+}
+
+._EmailBlock__cta {
+  margin-top: 40px;
+}
+
+._EmailBlock__ctaText {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+._EmailBlock__ctaText--after {
+  margin-top: 20px;
+}
+
+._EmailBlock__cta--mt20 {
+  margin-top: 20px;
+}
+
+._EmailBlock__cta--mt30 {
+  margin-top: 30px;
+}
+
+._EmailBlock__cta--social-buttons {
+  margin-top: 25px;
+
+  ._EmailButton--social {
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+  }
+}
+
+._EmailBlock--assistant {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+._EmailBlock--maxw500 {
+  max-width: 500px;
+}
+
+._EmailBlock--mt60 {
+  margin-top: 60px;
+}
+
+._EmailBlock--mb30 {
+  margin-bottom: 30px;
+}
+
+._EmailBlock--mb80 {
+  margin-bottom: 80px;
+}

@@ -1,0 +1,12 @@
+._EmailTableOL {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+._EmailTableOL__cell {
+  padding-bottom: 15px;
+}
+
+._EmailTableOL__cell--mark {
+  padding-right: 15px;
+}

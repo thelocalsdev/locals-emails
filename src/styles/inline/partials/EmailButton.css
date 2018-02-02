@@ -1,0 +1,96 @@
+._EmailButton {
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: var(--font-family-base);
+  text-decoration: none;
+
+  ._EmailOldPrice {
+    padding-right: 2px;
+    padding-left: 2px;
+    text-decoration: line-through;
+  }
+}
+
+._EmailButton--sm {
+  padding-top: 5px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+._EmailButton--lg {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+._EmailButton--block {
+  display: block;
+}
+
+._EmailButton--green {
+  border: 1px solid var(--color-green);
+  color: var(--color-white);
+
+  &:not(._EmailButton--outline) {
+    background-color: var(--color-green);
+    @include font-smoothing;
+  }
+
+  &._EmailButton--outline {
+    color: var(--color-green);
+  }
+}
+
+._EmailButton--black {
+  border: 1px solid var(--color-black);
+  color: var(--color-white);
+
+  &:not(._EmailButton--outline) {
+    background-color: var(--color-black);
+    @include font-smoothing;
+  }
+
+  &._EmailButton--outline {
+    color: var(--color-black);
+  }
+}
+
+._EmailButton--social {
+  width: 100px;
+
+  img {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+}
+
+._EmailButton--vkontakte {
+  background-color: #5377a1;
+  color: var(--color-white);
+  @include font-smoothing;
+
+  img {
+    margin-bottom: 2px;
+  }
+}
+
+._EmailButton--facebook {
+  background-color: #364e9c;
+  color: var(--color-white);
+  @include font-smoothing;
+
+  img {
+    margin-bottom: 2px;
+  }
+}

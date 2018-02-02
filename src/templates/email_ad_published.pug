@@ -1,0 +1,104 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--yes
+        img(width="162", height="162", src="img/icons/yes.png", alt="")
+      .EmailH1._EmailH1 Объявление опубликовано
+      ._EmailText._EmailText--mb20._u-MaxWidth-370 Расскажите об&nbsp;этом друзям в&nbsp;социальных сетях, это поможет сдать квартиру быстрее.
+      ._EmailBlock__cta._EmailBlock__cta--social-buttons
+        a.EmailButton.EmailButton--vkontakte._EmailButton._EmailButton--social._EmailButton--vkontakte(href="#", title="Вконтакте")
+          img(width="17", height="9", src="img/vkontakte.png", alt="VK")
+          | Вконтакте
+        a.EmailButton.EmailButton--facebook._EmailButton._EmailButton--social._EmailButton--facebook(href="#", title="Facebook")
+          img(width="8", height="14", src="img/facebook.png", alt="FB")
+          | Facebook
+    .EmailBlock._EmailBlock._EmailBlock--maxw500
+      ._EmailOfferCard
+        table
+          tr
+            td._EmailOfferCard__cell._EmailOfferCard__cell--image
+              a._EmailOfferCard__image._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank", style="background-image: url(img/example.jpg);")
+                img._EmailOfferCard__imageImg(width="0", height="0", src="img/example.jpg", alt="Однокомнатная квартира с ремонтом в Ясенево")
+            td._EmailOfferCard__cell._EmailOfferCard__cell--content
+              table._EmailOfferCard__content
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--info
+                    table._EmailOfferCard__info
+                      tr
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--price
+                          ._EmailOfferCard__infoPrice._u-FontFamily-base 35&nbsp;000&nbsp;руб.
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--space
+                          ._EmailOfferCard__infoSpace._u-FontFamily-base 3-к., 34&nbsp;м<span class="_EmailSup">2</span>
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--title
+                    ._EmailOfferCard__title._u-FontFamily-base
+                      a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево") Однокомнатная квартира с ремонтом в Ясенево
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--metro
+                    table._EmailOfferCard__metro
+                      tr
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--icon
+                          a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank")
+                            img._EmailOfferCard__metroImg(width="16", src="img/subway.png", alt="")
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--text
+                          ._EmailOfferCard__metroText._u-FontFamily-base
+                            a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank") Улица Скобелевска…
+      ._EmailActionList
+        ._EmailActionList__item
+          table
+            tr
+              td._EmailActionList__itemCell._EmailActionList__itemCell--icon
+                a._EmailActionList__itemLink(href="#", title="Редактировать объявление", target="_blank")
+                  img._EmailActionList__itemImg(width="16", src="img/pencil_square.png", alt="")
+              td._EmailActionList__itemCell._EmailActionList__itemCell--text
+                ._EmailActionList__itemText._u-FontFamily-base
+                  a._EmailActionList__itemLink(href="#", title="Редактировать объявление", target="_blank") Редактировать
+        ._EmailActionList__item
+          table
+            tr
+              td._EmailActionList__itemCell._EmailActionList__itemCell--icon
+                a._EmailActionList__itemLink(href="#", title="Снять с публикации", target="_blank")
+                  img._EmailActionList__itemImg(width="13", src="img/trash.png", alt="")
+              td._EmailActionList__itemCell._EmailActionList__itemCell--text
+                ._EmailActionList__itemText._u-FontFamily-base
+                  a._EmailActionList__itemLink(href="#", title="Снять с публикации", target="_blank") Снять с публикации
+        ._EmailActionList__item
+          table
+            tr
+              td._EmailActionList__itemCell._EmailActionList__itemCell--icon
+                a._EmailActionList__itemLink(href="#", title="В кабинет", target="_blank")
+                  img._EmailActionList__itemImg(width="13", src="img/man.png", alt="")
+              td._EmailActionList__itemCell._EmailActionList__itemCell--text
+                ._EmailActionList__itemText._u-FontFamily-base
+                  a._EmailActionList__itemLink(href="#", title="В кабинет", target="_blank") В кабинет
+    .EmailHr._EmailHr._u-MaxWidth-500
+    .EmailBlock._EmailBlock._EmailBlock--mb80
+      ._EmailCircleIcon._EmailCircleIcon--go
+        img(width="242", height="162", src="img/icons/go.png", alt="")
+      .EmailH1._EmailH1 Еще не&nbsp;нашли жильцов?
+      ._EmailText._EmailText--mb30._u-TextAlign-left Ваше объявление всегда будет наверху в&nbsp;поиске, что в&nbsp;разы увеличит колличество просмотров. Так&nbsp;же оно будет выделено в&nbsp;списке и&nbsp;включено в&nbsp;рекомендации Locals.
+      table._EmailTableUL
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText В&nbsp;приоритетном размещении квартиру увидят гораздо больше пользователей.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText Разместив хорошее предложение в&nbsp;топ результатов, можно заинтересовать потенциального арендатора.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText Не&nbsp;найдя, что искали, большинство арендаторов подписывается на&nbsp;ежедневную рассылку с&nbsp;новыми предложениями на&nbsp;рынке. Ваше объявление будет рекомендовано всем, кто ищет квартиру или комнату поблизости.
+        tr
+          td._EmailTableUL__cell._EmailTableUL__cell--mark
+            img(width="21", height="21", src="img/tick_gray.png", alt="")
+          td._EmailTableUL__cell._EmailTableUL__cell--text
+            ._EmailText
+              b Все надежно!
+      a.EmailButton.EmailButton--greenOutline._EmailButton._EmailButton--sm._EmailButton--green._EmailButton--outline(href="#", title="Узнать больше", target="_blank") Узнать больше

@@ -1,0 +1,7 @@
+._EmailLink--green {
+  color: var(--color-green);
+}
+
+._EmailLink--no-underline {
+  text-decoration: none;
+}

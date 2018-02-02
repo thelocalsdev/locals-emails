@@ -1,0 +1,25 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--yes
+        img(width="162", height="162", src="img/icons/yes.png", alt="")
+      .EmailH1._EmailH1 Вы&nbsp;купили подписку на&nbsp;7&nbsp;дней
+      ._EmailText._EmailText--mb20 Мы&nbsp;очень этому рады и&nbsp;спешим поделиться полезной информацией, которая поможет в&nbsp;поиске.
+    .EmailHr._EmailHr._u-MaxWidth-500
+    .EmailBlock._EmailBlock
+      ._EmailCircleIcon._EmailCircleIcon--lock
+        img(width="162", height="150", src="img/icons/lock.png", alt="")
+      ._EmailH1 Доступ ваш
+      ._EmailText._EmailText--mb15._u-TextAlign-left Теперь у&nbsp;вас есть доступ ко&nbsp;всем объявлениям с&nbsp;пометкой &laquo;проверено&raquo;. Все они были предварительно проверены модераторами. Можете быть уверены&nbsp;&mdash; квартира действительно существует и&nbsp;сдается именно собственником.
+      ._EmailText._EmailText--mb15._u-TextAlign-left Чтобы ускорить поиск и&nbsp;узнавать о&nbsp;новых объявлениях первыми, настройте нужные фильтры, подпишитесь и&nbsp;получайте свежие варианты на&nbsp;почту. А&nbsp;еще вы&nbsp;можете следить за&nbsp;нами в&nbsp;соцсетях, там тоже много интересного!
+      ._EmailText._EmailText--mb15._u-TextAlign-left У&nbsp;вас пока нет доступа к&nbsp;объявлениям, отмеченным замочком. Это самые новые квартиры из&nbsp;различных источников, которые еще не&nbsp;успели проверить модераторы.
+      ._EmailText._EmailText--mb20._u-TextAlign-left Хотите первыми получить доступ к&nbsp;этим объектам?
+    .EmailBlock._EmailBlock._EmailBlock--assistant
+      .EmailAssistant._EmailAssistant
+        ._EmailCircleIcon._EmailCircleIcon--assistant
+          img(width="161", height="150", src="img/icons/assistant_black.png", alt="")
+        ._EmailH1 Оформите услугу &laquo;Личный помощник&raquo;
+        ._EmailText._EmailText--mb20._u-TextAlign-left Хотите первыми получить доступ к&nbsp;этим объектам? Оформите услугу &laquo;Личный помощник&raquo;. Он&nbsp;без очереди проверит для вас любое объявление. И&nbsp;вообще готов заниматься поиском вместо вас! Просто сообщите нужные параметры и&nbsp;получайте персональную подборку проверенных квартир со&nbsp;всего интернета на&nbsp;почту. Кстати, личный помощник видит объявления до&nbsp;того, как они попадут на&nbsp;сайт, поэтому ваши шансы приехать на&nbsp;просмотр первыми повышаются.
+        a.EmailButton.EmailButton--blackOutline._EmailAssistant__button._EmailButton._EmailButton--sm._EmailButton--black._EmailButton--outline(href="#", title="Оформить подписку", target="_blank") Оформить подписку

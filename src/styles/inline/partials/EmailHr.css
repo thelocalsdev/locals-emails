@@ -1,0 +1,7 @@
+._EmailHr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-top: 1px solid var(--color-hr);
+  font-size: 0;
+  line-height: 0;
+}

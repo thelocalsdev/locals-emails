@@ -1,0 +1,13 @@
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-green: #18a24a;
+
+  --color-hr: #eaeaea;
+
+  --color-base: var(--color-black);
+
+  --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-size-base: 15px;
+  --line-height-base: 22px;
+}

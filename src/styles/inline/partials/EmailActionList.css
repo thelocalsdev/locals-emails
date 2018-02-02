@@ -1,0 +1,35 @@
+._EmailActionList__item {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+._EmailActionList__itemCell--icon {
+  width: 16px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  line-height: 0;
+  text-align: center;
+}
+
+._EmailActionList__itemCell--text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+._EmailActionList__itemLink {
+  color: #252525;
+  text-decoration: none;
+}
+
+._EmailActionList__itemImg {
+  border: 0;
+}
+
+._EmailActionList__itemText {
+  font-size: 12px;
+  line-height: 18px;
+}
