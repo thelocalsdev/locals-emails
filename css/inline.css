@@ -1,0 +1,651 @@
+body {
+  margin: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+}
+
+b {
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  vertical-align: top;
+}
+
+._u-Color-black {
+  color: #000000;
+}
+
+._u-FontFamily-base {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+._u-TextAlign-left {
+  text-align: left;
+}
+
+._u-TextAlign-center {
+  text-align: center;
+}
+
+._u-Width-202 {
+  width: 202px;
+}
+
+._u-Width-252 {
+  width: 252px;
+}
+
+._u-MaxWidth-370 {
+  width: 370px;
+}
+
+._u-MaxWidth-500 {
+  max-width: 500px;
+}
+
+._u-Display-inlineBlock {
+  display: inline-block;
+}
+
+._EmailLayout {
+  background-color: #ffffff;
+}
+
+._EmailLayoutInner {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+._EmailLayoutContainer {
+  width: 100%;
+  min-width: 280px;
+  max-width: 680px;
+}
+
+._EmailLayoutHeader > tr > td {
+    padding-top: 10px;
+  }
+
+._EmailLayoutHeader__container {
+  max-width: 600px;
+}
+
+._EmailLayoutHeader__container > tr > td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eaeaea;
+  }
+
+._EmailLayoutHeader__cols {
+
+}
+
+._EmailLayoutHeader__col {
+  vertical-align: bottom;
+}
+
+._EmailLayoutHeader__col--left {
+  padding-right: 10px;
+}
+
+._EmailLayoutHeader__col--right {
+  width: 60%;
+  text-align: right;
+}
+
+._EmailLayoutHeader__logoImg {
+  width: 100%;
+  max-width: 150px;
+  vertical-align: middle;
+}
+
+._EmailLayoutHeader__desc {
+  color: #b7b7b7;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+._EmailLayoutContent > tr > td {
+    text-align: center;
+  }
+
+._EmailLayoutFooter__container > tr > td {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #eaeaea;
+  }
+
+._EmailLayoutFooter__row--help {
+  padding-top: 20px;
+}
+
+._EmailLayoutFooter__row--subscription {
+  padding-top: 25px;
+}
+
+._EmailLayoutFooter__appStores {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+._EmailLayoutFooter__appStoresItem {
+  width: 50%;
+  max-width: 190px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+._EmailLayoutFooter__appStoresItem img {
+    width: 100%;
+  }
+
+._EmailLayoutFooter__appStoresItem--apple-store, ._EmailLayoutFooter__appStoresItem--apple-store img {
+    max-width: 190px;
+  }
+
+._EmailLayoutFooter__appStoresItem--google-play, ._EmailLayoutFooter__appStoresItem--google-play img {
+    max-width: 170px;
+  }
+
+._EmailLayoutFooter__text {
+  color: #000000;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+._EmailLayoutFooter__text--subscription {
+  color: #b8b8b8;
+}
+
+._EmailLayoutFooter__text--subscription a {
+    border-bottom: 1px solid #d4d4d4;
+    color: #b8b8b8;
+    text-decoration: none;
+  }
+
+._EmailH1 {
+  margin-bottom: 14px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+._EmailH1--mb40 {
+  margin-bottom: 40px;
+}
+
+._EmailText {
+  color: #000000;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+._EmailText--mb8 {
+  margin-bottom: 8px;
+}
+
+._EmailText--mb15 {
+  margin-bottom: 15px;
+}
+
+._EmailText--mb18 {
+  margin-bottom: 18px;
+}
+
+._EmailText--mb20 {
+  margin-bottom: 20px;
+}
+
+._EmailText--mb30 {
+  margin-bottom: 30px;
+}
+
+._EmailText--mb40 {
+  margin-bottom: 40px;
+}
+
+._EmailSup {
+  font-size: smaller;
+  line-height: 1;
+  vertical-align: super;
+}
+
+._EmailTableUL {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+._EmailTableUL__cell {
+  padding-bottom: 15px;
+}
+
+._EmailTableUL__cell--mark {
+  padding-right: 10px;
+}
+
+._EmailTableOL {
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+._EmailTableOL__cell {
+  padding-bottom: 15px;
+}
+
+._EmailTableOL__cell--mark {
+  padding-right: 15px;
+}
+
+._EmailLink--green {
+  color: #18a24a;
+}
+
+._EmailLink--no-underline {
+  text-decoration: none;
+}
+
+._EmailButton {
+  padding-top: 8px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  display: inline-block;
+  border: 1px solid transparent;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+._EmailButton--sm {
+  padding-top: 5px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
+  font-size: 13px;
+  line-height: 17px;
+}
+
+._EmailButton--lg {
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+._EmailButton--block {
+  display: block;
+}
+
+._EmailButton--green {
+  border: 1px solid #18a24a;
+  color: #ffffff;
+}
+
+._EmailButton--green:not(._EmailButton--outline) {
+    background-color: #18a24a;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+._EmailButton--green._EmailButton--outline {
+    color: #18a24a;
+  }
+
+._EmailButton--black {
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+
+._EmailButton--black:not(._EmailButton--outline) {
+    background-color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+._EmailButton--black._EmailButton--outline {
+    color: #000000;
+  }
+
+._EmailButton--social {
+  width: 100px;
+}
+
+._EmailButton--social img {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+._EmailButton--vkontakte {
+  background-color: #5377a1;
+  color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+._EmailButton--vkontakte img {
+    margin-bottom: 2px;
+  }
+
+._EmailButton--facebook {
+  background-color: #364e9c;
+  color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+._EmailButton--facebook img {
+    margin-bottom: 2px;
+  }
+
+._EmailNumber {
+  width: 40px;
+  height: 40px;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #f0f0f0;
+  color: #252525;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+._EmailNumber table {
+    width: 100%;
+    height: 100%;
+  }
+
+._EmailNumber table > tr > td {
+      text-align: center;
+      vertical-align: middle;
+    }
+
+._EmailBlock {
+  width: 100%;
+  min-width: 280px;
+  max-width: 480px;
+  margin-bottom: 60px;
+}
+
+._EmailBlock:first-child {
+    margin-top: 50px;
+  }
+
+._EmailBlock__cta {
+  margin-top: 40px;
+}
+
+._EmailBlock__ctaText {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+._EmailBlock__ctaText--after {
+  margin-top: 20px;
+}
+
+._EmailBlock__cta--mt20 {
+  margin-top: 20px;
+}
+
+._EmailBlock__cta--mt30 {
+  margin-top: 30px;
+}
+
+._EmailBlock__cta--social-buttons {
+  margin-top: 25px;
+}
+
+._EmailBlock__cta--social-buttons ._EmailButton--social {
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    margin-left: 6px;
+  }
+
+._EmailBlock--assistant {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+._EmailBlock--maxw500 {
+  max-width: 500px;
+}
+
+._EmailBlock--mt60 {
+  margin-top: 60px;
+}
+
+._EmailBlock--mb30 {
+  margin-bottom: 30px;
+}
+
+._EmailBlock--mb80 {
+  margin-bottom: 80px;
+}
+
+._EmailHr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border-top: 1px solid #eaeaea;
+  font-size: 0;
+  line-height: 0;
+}
+
+._EmailSocialIcons {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+._EmailSocialIcons__item {
+  padding-top: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+._EmailSocialIcons__item a {
+    width: 39px;
+    height: 39px;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+._EmailSocialIcons__item img {
+    vertical-align: middle;
+  }
+
+._EmailCircleIcon {
+  margin-bottom: 22px;
+  line-height: 0;
+}
+
+._EmailCircleIcon img {
+    width: 162px;
+    height: 162px;
+  }
+
+._EmailCircleIcon--go img {
+    width: 242px;
+  }
+
+._EmailCircleIcon--mail img, ._EmailCircleIcon--assistant img, ._EmailCircleIcon--lock img, ._EmailCircleIcon--clock img, ._EmailCircleIcon--key img, ._EmailCircleIcon--no img, ._EmailCircleIcon--what img {
+    height: 150px;
+  }
+
+._EmailCircleIcon--assistant img, ._EmailCircleIcon--clock img, ._EmailCircleIcon--what img {
+    width: 161px;
+  }
+
+._EmailCircleIcon--hey img {
+    width: 150px;
+    height: 150px;
+  }
+
+._EmailAssistant {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  -webkit-border-radius: 9px;
+          border-radius: 9px;
+  background-color: #fff15b;
+}
+
+._EmailAssistant__button {
+  padding-top: 6px;
+  padding-bottom: 7px;
+}
+
+._EmailTableDetails > tr > td {
+    padding-bottom: 8px;
+  }
+
+._EmailOfferCard {
+  width: 100%;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+._EmailOfferCard__cell--image {
+  width: 36%;
+  background-color: #dfdfdf;
+  vertical-align: middle;
+}
+
+._EmailOfferCard__cell--content {
+  padding-top: 10px;
+  padding-right: 4%;
+  padding-bottom: 10px;
+  padding-left: 4%;
+  border-top: 1px solid #dfdfdf;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+._EmailOfferCard__link {
+  display: block;
+  color: #252525;
+  text-decoration: none;
+}
+
+._EmailOfferCard__image {
+  width: 100%;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+._EmailOfferCard__imageImg {
+  display: none;
+  overflow: hidden;
+}
+
+._EmailOfferCard__contentRow--info {
+  padding-bottom: 5px;
+}
+
+._EmailOfferCard__contentRow--title {
+  padding-bottom: 5px;
+}
+
+._EmailOfferCard__infoCell--space {
+  text-align: right;
+}
+
+._EmailOfferCard__infoPrice {
+  color: #252525;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+._EmailOfferCard__infoSpace {
+  color: #252525;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+._EmailOfferCard__title {
+  height: 60px;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+}
+
+._EmailOfferCard__metroCell--icon {
+  width: 16px;
+  padding-right: 5px;
+  line-height: 1;
+}
+
+._EmailOfferCard__metroImg {
+  margin-top: 1px;
+}
+
+._EmailOfferCard__metroText {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+._EmailActionList__item {
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+._EmailActionList__itemCell--icon {
+  width: 16px;
+  padding-top: 5px;
+  padding-right: 8px;
+  padding-bottom: 5px;
+  line-height: 0;
+  text-align: center;
+}
+
+._EmailActionList__itemCell--text {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+._EmailActionList__itemLink {
+  color: #252525;
+  text-decoration: none;
+}
+
+._EmailActionList__itemImg {
+  border: 0;
+}
+
+._EmailActionList__itemText {
+  font-size: 12px;
+  line-height: 18px;
+}

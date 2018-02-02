@@ -1,0 +1,100 @@
+.EmailLink:hover {
+    color: #1bb855 !important;
+  }
+
+.EmailButton--green:hover {
+    border-color: #1bb855 !important;
+    background-color: #1bb855 !important;
+    color: #ffffff !important;
+  }
+
+.EmailButton--greenOutline:hover {
+    border-color: #1bb855 !important;
+    background-color: #1bb855 !important;
+    color: #ffffff !important;
+  }
+
+.EmailButton--blackOutline:hover {
+    border-color: #1bb855 !important;
+    background-color: #1bb855 !important;
+    color: #ffffff !important;
+  }
+
+.EmailButton--vkontakte:hover {
+    border-color: #5b81ac !important;
+    background-color: #5b81ac !important;
+  }
+
+.EmailButton--facebook:hover {
+    border-color: #425bab !important;
+    background-color: #425bab !important;
+  }
+
+@media screen and (min-width: 0px) {
+  .EmailBlogPosts__item {
+    width: 100% !important;
+    max-width: 480px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .EmailBlogPosts__itemImage {
+    width: 35% !important;
+    padding-right: 5% !important;
+    padding-left: 0 !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+  }
+
+  .EmailBlogPosts__itemImg {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .EmailBlogPosts__itemContent {
+    width: 60% !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+    display: inline-block !important;
+    vertical-align: top !important;
+  }
+
+  .EmailBlogPosts__itemTitle {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .EmailH1 {
+    font-size: 32px !important;
+    line-height: 35px !important;
+  }
+
+  .EmailBlock--margin-bottom-lg {
+    margin-bottom: 80px !important;
+  }
+
+  .EmailBlogPosts__item {
+    width: 50% !important;
+    max-width: 255px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .EmailBlogPosts__itemImage, .EmailBlogPosts__itemContent {
+    width: auto !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    display: block !important;
+  }
+
+  .EmailBlogPosts__itemTitle {
+    margin-top: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .EmailAssistant {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+  }
+}
