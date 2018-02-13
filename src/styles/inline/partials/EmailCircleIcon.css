@@ -3,14 +3,27 @@
   line-height: 0;
 
   img {
-    width: 162px;
-    height: 162px;
+    width: 127px;
+    height: 128px;
   }
 }
 
 ._EmailCircleIcon--go {
   img {
-    width: 242px;
+    width: 191px;
+  }
+}
+
+._EmailCircleIcon--mail,
+._EmailCircleIcon--assistant,
+._EmailCircleIcon--lock,
+._EmailCircleIcon--clock,
+._EmailCircleIcon--key,
+._EmailCircleIcon--no,
+._EmailCircleIcon--what,
+._EmailCircleIcon--hey {
+  img {
+    height: 120px;
   }
 }
 
@@ -22,21 +35,12 @@
 ._EmailCircleIcon--no,
 ._EmailCircleIcon--what {
   img {
-    height: 150px;
-  }
-}
-
-._EmailCircleIcon--assistant,
-._EmailCircleIcon--clock,
-._EmailCircleIcon--what {
-  img {
-    width: 161px;
+    width: 129px;
   }
 }
 
 ._EmailCircleIcon--hey {
   img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
   }
 }

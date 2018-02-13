@@ -490,25 +490,24 @@ td {
 }
 
 ._EmailCircleIcon img {
-    width: 162px;
-    height: 162px;
+    width: 127px;
+    height: 128px;
   }
 
 ._EmailCircleIcon--go img {
-    width: 242px;
+    width: 191px;
+  }
+
+._EmailCircleIcon--mail img, ._EmailCircleIcon--assistant img, ._EmailCircleIcon--lock img, ._EmailCircleIcon--clock img, ._EmailCircleIcon--key img, ._EmailCircleIcon--no img, ._EmailCircleIcon--what img, ._EmailCircleIcon--hey img {
+    height: 120px;
   }
 
 ._EmailCircleIcon--mail img, ._EmailCircleIcon--assistant img, ._EmailCircleIcon--lock img, ._EmailCircleIcon--clock img, ._EmailCircleIcon--key img, ._EmailCircleIcon--no img, ._EmailCircleIcon--what img {
-    height: 150px;
-  }
-
-._EmailCircleIcon--assistant img, ._EmailCircleIcon--clock img, ._EmailCircleIcon--what img {
-    width: 161px;
+    width: 129px;
   }
 
 ._EmailCircleIcon--hey img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
   }
 
 ._EmailAssistant {
