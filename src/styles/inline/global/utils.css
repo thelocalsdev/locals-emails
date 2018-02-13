@@ -2,6 +2,10 @@
   color: var(--color-black);
 }
 
+._u-Color-green {
+  color: var(--color-green);
+}
+
 ._u-FontFamily-base {
   font-family: var(--font-family-base);
 }
