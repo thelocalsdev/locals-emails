@@ -665,6 +665,7 @@ td {
 
 ._EmailUser__avatar {
   margin-bottom: 20px;
+  line-height: 0;
 }
 
 ._EmailUser__avatar img {
