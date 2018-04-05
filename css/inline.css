@@ -258,6 +258,10 @@ td {
   color: #18a24a;
 }
 
+._EmailLink--base {
+  color: #000000;
+}
+
 ._EmailLink--no-underline {
   text-decoration: none;
 }
@@ -657,4 +661,17 @@ td {
 ._EmailActionList__itemText {
   font-size: 12px;
   line-height: 18px;
+}
+
+._EmailUser__avatar {
+  margin-bottom: 20px;
+}
+
+._EmailUser__avatar img {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+  }
+
+._EmailUser--mt30 {
+  margin-top: 30px;
 }
