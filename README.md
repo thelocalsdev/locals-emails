@@ -74,7 +74,7 @@ gulp deploy
     .EmailLink {
       color: red !important;
     }
-  }
+  </style>
 
   ...
 
