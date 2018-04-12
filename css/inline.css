@@ -676,3 +676,16 @@ td {
 ._EmailUser--mt30 {
   margin-top: 30px;
 }
+
+._EmailUser--horiz ._EmailUser__cell {
+    vertical-align: middle;
+  }
+
+._EmailUser--horiz ._EmailUser__cell--avatar {
+    width: 90px;
+    padding-right: 20px;
+  }
+
+._EmailUser--horiz ._EmailUser__avatar {
+    margin-bottom: 0;
+  }
