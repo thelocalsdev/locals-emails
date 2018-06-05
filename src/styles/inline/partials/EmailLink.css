@@ -2,6 +2,10 @@
   color: var(--color-green);
 }
 
+._EmailLink--base {
+  color: var(--color-base);
+}
+
 ._EmailLink--no-underline {
   text-decoration: none;
 }

@@ -258,6 +258,10 @@ td {
   color: #18a24a;
 }
 
+._EmailLink--base {
+  color: #000000;
+}
+
 ._EmailLink--no-underline {
   text-decoration: none;
 }
@@ -658,3 +662,30 @@ td {
   font-size: 12px;
   line-height: 18px;
 }
+
+._EmailUser__avatar {
+  margin-bottom: 20px;
+  line-height: 0;
+}
+
+._EmailUser__avatar img {
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+  }
+
+._EmailUser--mt30 {
+  margin-top: 30px;
+}
+
+._EmailUser--horiz ._EmailUser__cell {
+    vertical-align: middle;
+  }
+
+._EmailUser--horiz ._EmailUser__cell--avatar {
+    width: 90px;
+    padding-right: 20px;
+  }
+
+._EmailUser--horiz ._EmailUser__avatar {
+    margin-bottom: 0;
+  }

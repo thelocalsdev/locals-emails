@@ -1,0 +1,27 @@
+._EmailUser__avatar {
+  margin-bottom: 20px;
+  line-height: 0;
+
+  img {
+    border-radius: 50%;
+  }
+}
+
+._EmailUser--mt30 {
+  margin-top: 30px;
+}
+
+._EmailUser--horiz {
+  ._EmailUser__cell {
+    vertical-align: middle;
+  }
+
+  ._EmailUser__cell--avatar {
+    width: 90px;
+    padding-right: 20px;
+  }
+
+  ._EmailUser__avatar {
+    margin-bottom: 0;
+  }
+}

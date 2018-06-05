@@ -1,0 +1,31 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      //- ._EmailCircleIcon._EmailCircleIcon--yes
+      //-   img(width="127", height="128", src="img/icons/yes.png", alt="")
+      .EmailH1._EmailH1 Привет! 🕺
+      ._EmailText._EmailText--mb20._u-TextAlign-left Меня зовут Иван. Я&nbsp;занимаюсь контролем качества и&nbsp;развитием сервиса &laquo;Личный помощник&raquo; в&nbsp;компании Локалс.<br /><br /> Я&nbsp;бы хотел поинтересоваться, довольны&nbsp;ли Вы&nbsp;работой вашего персонального помощника и&nbsp;качеством присылаемой подборки квартир?<br /><br /> Буду очень рад выслушать любые пожелания, предложения или жалобы 🙂
+      //- ._EmailUser._EmailUser--mt30
+      //-   ._EmailUser__avatar
+      //-     img(width="120", height="120", src="img/team/ivan.jpg", alt="Иван Кондраков")
+      //-   ._EmailUser__content._EmailText
+      //-     | Забочусь о&nbsp;клиентах Локалс
+      //-     br
+      //-     b Иван Кондраков
+      //-     br
+      //-     a.EmailLink._EmailLink._EmailLink--no-underline._EmailLink--base(href="mailto:ivan_k@thelocals.ru", title="ivan_k@thelocals.ru", target="_blank") ivan_k@thelocals.ru
+      ._EmailUser._EmailUser--horiz._EmailUser--mt30
+        table
+          tr
+            td._EmailUser__cell._EmailUser__cell--avatar
+              ._EmailUser__avatar
+                img(width="90", height="90", src="img/team/ivan.jpg", alt="Иван Кондраков")
+            td._EmailUser__cell._EmailUser__cell--content
+              ._EmailUser__content._EmailText
+                | Забочусь о&nbsp;клиентах Локалс
+                br
+                b Иван Кондраков
+                br
+                a.EmailLink._EmailLink._EmailLink--no-underline._EmailLink--base(href="mailto:ivan_k@thelocals.ru", title="ivan_k@thelocals.ru", target="_blank") ivan_k@thelocals.ru
