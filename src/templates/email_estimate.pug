@@ -1,0 +1,23 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock
+      ._EmailIcon._EmailIcon--smile
+        img(src="img/smile.png", alt="")
+      .EmailH1._EmailH1 Привет, это Локалс.
+      ._EmailText._EmailText--mb15._u-TextAlign-left Недавно вы&nbsp;купили услугу &laquo;Личный помощник&raquo;. Мы&nbsp;надеемся, что с&nbsp;его помощью вы&nbsp;стали получать гораздо больше классных вариантов, а&nbsp;может быть даже уже нашли квартиру мечты.
+      ._EmailText._EmailText--mb20._u-TextAlign-left Пожалуйста, поделитесь впечатлениями от&nbsp;работы с&nbsp;личным помощником. Просто нажмите эту кнопку и&nbsp;ответьте на&nbsp;несколько вопросов. Обещаем, это не&nbsp;займёт много времени!
+      ._EmailRating._EmailRating--mt40._EmailRating--mb40
+        center
+          a._EmailRating__item._EmailRating__item--1(href="#", title="Ужасно")
+            img(src="img/rating/1.png", alt="1")
+          a._EmailRating__item._EmailRating__item--2(href="#", title="Плохо")
+            img(src="img/rating/2.png", alt="2")
+          a._EmailRating__item._EmailRating__item--3(href="#", title="Нормально")
+            img(src="img/rating/3.png", alt="3")
+          a._EmailRating__item._EmailRating__item--4(href="#", title="Хорошо")
+            img(src="img/rating/4.png", alt="4")
+          a._EmailRating__item._EmailRating__item--5(href="#", title="Отлично")
+            img(src="img/rating/5.png", alt="5")
+      ._EmailText._u-FontStyle-italic Спасибо, что помогаете делать наш сервис лучше.<br> Команда Локалс

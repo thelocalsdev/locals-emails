@@ -18,6 +18,10 @@
   text-align: center;
 }
 
+._u-FontStyle-italic {
+  font-style: italic;
+}
+
 ._u-Width-202 {
   width: 202px;
 }
