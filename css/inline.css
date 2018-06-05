@@ -39,6 +39,10 @@ td {
   text-align: center;
 }
 
+._u-FontStyle-italic {
+  font-style: italic;
+}
+
 ._u-Width-202 {
   width: 202px;
 }
@@ -689,3 +693,48 @@ td {
 ._EmailUser--horiz ._EmailUser__avatar {
     margin-bottom: 0;
   }
+
+._EmailIcon {
+  margin-bottom: 20px;
+  line-height: 0;
+  text-align: center;
+}
+
+._EmailIcon img {
+    width: 60px;
+    height: 60px;
+  }
+
+._EmailRating__item {
+  width: 56px;
+  height: 56px;
+  margin: 6px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  vertical-align: top;
+}
+
+._EmailRating__item img {
+    width: 36px;
+    height: 36px;
+    margin-top: 11px;
+    display: inline-block;
+    line-height: 0;
+  }
+
+._EmailRating__item--1 img {
+    width: 34px;
+    height: 33px;
+    margin-top: 10px;
+  }
+
+._EmailRating--mt40 {
+  margin-top: 40px;
+}
+
+._EmailRating--mb40 {
+  margin-bottom: 40px;
+}
