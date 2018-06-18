@@ -706,18 +706,23 @@ td {
   }
 
 ._EmailRating__item {
-  width: 56px;
-  height: 56px;
   margin: 6px;
   display: inline-block;
-  -webkit-border-radius: 50%;
-          border-radius: 50%;
-  background-color: #f2f2f2;
   text-decoration: none;
   vertical-align: top;
 }
 
-._EmailRating__item img {
+._EmailRating__itemImage {
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: #f2f2f2;
+  vertical-align: top;
+}
+
+._EmailRating__itemImage img {
     width: 36px;
     height: 36px;
     margin-top: 11px;
@@ -725,11 +730,30 @@ td {
     line-height: 0;
   }
 
-._EmailRating__item--1 img {
-    width: 34px;
-    height: 33px;
-    margin-top: 10px;
+._EmailRating__itemLabel {
+  width: 56px;
+  margin-top: 8px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  vertical-align: top;
+}
+
+._EmailRating__item--1 ._EmailRating__itemImage img {
+      width: 34px;
+      height: 33px;
+      margin-top: 10px;
+    }
+
+._EmailRating__item--star ._EmailRating__itemImage {
+    background-color: transparent;
+    background: none;
   }
+
+._EmailRating__item--star ._EmailRating__itemImage img {
+      width: 40px;
+      height: 40px;
+    }
 
 ._EmailRating--mt40 {
   margin-top: 40px;
