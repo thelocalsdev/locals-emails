@@ -27,6 +27,10 @@ td {
   color: #18a24a;
 }
 
+._u-FontWeight-bold {
+  font-weight: bold;
+}
+
 ._u-FontFamily-base {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -43,6 +47,10 @@ td {
   font-style: italic;
 }
 
+._u-Width-160 {
+  width: 160px;
+}
+
 ._u-Width-202 {
   width: 202px;
 }
@@ -55,8 +63,16 @@ td {
   width: 370px;
 }
 
+._u-MaxWidth-480 {
+  max-width: 480px;
+}
+
 ._u-MaxWidth-500 {
   max-width: 500px;
+}
+
+._u-MaxWidth-620 {
+  max-width: 620px;
 }
 
 ._u-Display-inlineBlock {
@@ -195,6 +211,15 @@ td {
   margin-bottom: 40px;
 }
 
+._EmailH2 {
+  margin-bottom: 14px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 ._EmailText {
   color: #000000;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -216,6 +241,10 @@ td {
 
 ._EmailText--mb20 {
   margin-bottom: 20px;
+}
+
+._EmailText--mb25 {
+  margin-bottom: 25px;
 }
 
 ._EmailText--mb30 {
@@ -373,6 +402,15 @@ td {
     margin-bottom: 2px;
   }
 
+._EmailButton--fs15 {
+  font-size: 15px;
+}
+
+._EmailButton--ph25 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
 ._EmailNumber {
   width: 40px;
   height: 40px;
@@ -428,6 +466,10 @@ td {
   margin-top: 30px;
 }
 
+._EmailBlock__cta--mt35 {
+  margin-top: 35px;
+}
+
 ._EmailBlock__cta--social-buttons {
   margin-top: 25px;
 }
@@ -446,6 +488,10 @@ td {
 
 ._EmailBlock--maxw500 {
   max-width: 500px;
+}
+
+._EmailBlock--maxw520 {
+  max-width: 520px;
 }
 
 ._EmailBlock--mt60 {
@@ -694,6 +740,15 @@ td {
     margin-bottom: 0;
   }
 
+._EmailDescBlock__title {
+  margin-bottom: 14px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 ._EmailIcon {
   margin-bottom: 20px;
   line-height: 0;
@@ -706,7 +761,10 @@ td {
   }
 
 ._EmailRating__item {
-  margin: 6px;
+  margin-top: 6px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  margin-left: 6px;
   display: inline-block;
   text-decoration: none;
   vertical-align: top;
@@ -734,8 +792,8 @@ td {
   width: 56px;
   margin-top: 8px;
   display: block;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 12px;
+  line-height: 18px;
   vertical-align: top;
 }
 
@@ -745,7 +803,13 @@ td {
       margin-top: 10px;
     }
 
+._EmailRating__item--star {
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
 ._EmailRating__item--star ._EmailRating__itemImage {
+    width: 60px;
     background-color: transparent;
     background: none;
   }
@@ -755,6 +819,10 @@ td {
       height: 40px;
     }
 
+._EmailRating__item--star ._EmailRating__itemLabel {
+    width: 60px;
+  }
+
 ._EmailRating--mt40 {
   margin-top: 40px;
 }
@@ -762,3 +830,56 @@ td {
 ._EmailRating--mb40 {
   margin-bottom: 40px;
 }
+
+._EmailDescBlock {
+  margin-bottom: 60px;
+}
+
+._EmailDescBlock__image {
+  width: 180px;
+  margin: 0 20px 20px 0;
+}
+
+._EmailDescBlock__image--manWithBook img {
+    margin-left: 47px;
+  }
+
+._EmailDescBlock__image--twoPeople img {
+    margin-left: 28px;
+  }
+
+._EmailDescBlock__image--manWithMagnifier img {
+    margin-left: 40px;
+  }
+
+._EmailDescBlock__cta {
+  margin-top: 20px;
+}
+
+._EmailDescBlock__ctaButton {
+  margin: 15px 15px 0 0;
+  vertical-align: top;
+}
+
+._EmailImageFrame {
+  width: 280px;
+  height: 242px;
+  margin-bottom: 40px;
+}
+
+._EmailImageFrame__content {
+  width: 100%;
+  height: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url('img/frame.png');
+  -webkit-background-size: contain;
+          background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+}
+
+._EmailImageFrame__content img {
+    width: 62.0155%;
+    vertical-align: middle;
+  }
