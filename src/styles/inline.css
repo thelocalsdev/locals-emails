@@ -6,6 +6,7 @@
 @import "inline/layout/EmailLayout.css";
 
 @import "inline/partials/EmailH1.css";
+@import "inline/partials/EmailH2.css";
 @import "inline/partials/EmailText.css";
 @import "inline/partials/EmailSup.css";
 @import "inline/partials/EmailTableUL.css";
@@ -24,3 +25,5 @@
 @import "inline/partials/EmailUser.css";
 @import "inline/partials/EmailIcon.css";
 @import "inline/partials/EmailRating.css";
+@import "inline/partials/EmailDescBlock.css";
+@import "inline/partials/EmailImageFrame.css";

@@ -1,0 +1,50 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock._EmailBlock--mb80
+      .EmailH1._EmailH1 Привет, это Локалс
+      ._EmailText._EmailText--mb20._u-TextAlign-left Мы&nbsp;решили запустить ежемесячную рассылку, в&nbsp;которой будем рассказывать вам о&nbsp;новых возможностях нашего сервиса и&nbsp;лайфхаках, которые помогут избежать проблем и&nbsp;сэкономить на&nbsp;аренде жилья. А&nbsp;заодно развлечем вас смешными и&nbsp;любопытными новостями из&nbsp;мира недвижимости.
+      ._EmailText._EmailText--mb20._u-TextAlign-left
+        b._u-FontWeight-bold В&nbsp;эфире августовский выпуск. Погнали!
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--manWithBook
+        img(width="57", height="147", src="img/desc/1.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailDescBlock__title Новый фильтр поиска
+        ._EmailText Вы&nbsp;просили&nbsp;&mdash; мы&nbsp;сделали! Добавили фильтрациюпо расстоянию до&nbsp;метро, как пешком, так и&nbsp;на&nbsp;транспорте. <a class="EmailLink _EmailLink _EmailLink--no-underline _EmailLink--green" href="#" title="Ищите его слева, прямо под графой «Где»" target="_blank">Ищите его слева, прямо под графой &laquo;Где&raquo;</a>.
+        ._EmailDescBlock__cta
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--green._EmailButton--fs15._EmailButton--ph25._u-TextAlign-center._EmailDescBlock__ctaButton(href="#", title="Попробовать", target="_blank") Попробовать
+    .EmailHr._EmailHr._u-MaxWidth-620
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--twoPeople
+        img(width="132", height="140", src="img/desc/2.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailDescBlock__title Квартиры с&nbsp;комиссией
+        ._EmailText Не&nbsp;пугайтесь, мы&nbsp;все так&nbsp;же остаемся сервисом по&nbsp;аренде жилья без комиссии. Просто решили, что будем показывать все предложения, которые есть на&nbsp;рынке. А&nbsp;для тех квартир, где комиссия все&nbsp;же предусмотрена, мы&nbsp;придумали кешбэк, который отдадим вам.
+    .EmailHr._EmailHr._u-MaxWidth-620
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--manWithMagnifier
+        img(width="78", height="152", src="img/desc/3.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailDescBlock__title Подробный гид по&nbsp;аренде жилья в&nbsp;Москве
+        ._EmailText._EmailText--mb25 Наш редактор Оля постаралась и&nbsp;сделала для вас подробный гид по&nbsp;аренде жилья в&nbsp;столице. Теперь вся информация собрана в&nbsp;одном месте, а&nbsp;процесс расписан буквально по&nbsp;шагам. Только самое важное, без воды и&nbsp;ерунды. С&nbsp;удобным оглавлением!
+        ._EmailText Собрали для вас <a class="EmailLink _EmailLink _EmailLink--no-underline _EmailLink--green" href="#" title="самые распространенные схемы мошенничеств на рынке">самые распространенные схемы мошенничеств на&nbsp;рынке</a> аренды жилья. Изучите внимательно, чтобы знать, на&nbsp;что обращать внимание и&nbsp;что точно должно насторожить. Осторожность не&nbsp;помешает даже самым опытным арендаторам, а&nbsp;уж&nbsp;если вы&nbsp;впервые снимаете квартиру самостоятельно&nbsp;&mdash; тем более прочитайте.
+        ._EmailDescBlock__cta
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--green._EmailButton--fs15._EmailButton--ph25._u-TextAlign-center._EmailDescBlock__ctaButton(href="#", title="Читать гайд", target="_blank") Читать гайд
+    .EmailHr._EmailHr._u-MaxWidth-620
+    .EmailBlock._EmailBlock._EmailBlock--maxw520
+      ._u-MaxWidth-480
+        .EmailH2._EmailH2 Квартира месяца: дизайнерская трешка с&nbsp;панорамным остеклением
+        ._EmailText._EmailText--mb20._u-TextAlign-left Каждый день мы&nbsp;выбираем квартиру дня и&nbsp;публикуем ее&nbsp;в&nbsp;наших соцсетях. Но&nbsp;для ежемесячной рассылки мы&nbsp;приготовили кое-что особенное. Встречайте квартиру месяца!
+      table.EmailImageFrame._EmailImageFrame
+        tr
+          td._EmailImageFrame__content
+            img(src="img/test_image.jpg", alt="")
+      ._u-MaxWidth-480
+        ._EmailText._EmailText--mb20._u-TextAlign-left Просторная и&nbsp;светлая трешка на&nbsp;Соколе с&nbsp;панорамным остеклением. Стильный монохромный интерьер, украшенный предметами искусства, простор, роскошь и&nbsp;два санузла :)
+        ._EmailBlock__cta._EmailBlock__cta--mt35
+          ._u-Display-inlineBlock._u-Width-160
+            a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--block._EmailButton--green._EmailButton--fs15._EmailButton--ph25._u-TextAlign-center(href="#", title="Подробнее", target="_blank") Подробнее
+    .EmailBlock._EmailBlock
+      ._EmailText._u-FontStyle-italic._u-TextAlign-left._u-fs15 Хорошего дня!<br /> Команда Локалс.

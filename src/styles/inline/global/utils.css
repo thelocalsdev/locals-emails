@@ -6,6 +6,10 @@
   color: var(--color-green);
 }
 
+._u-FontWeight-bold {
+  font-weight: bold;
+}
+
 ._u-FontFamily-base {
   font-family: var(--font-family-base);
 }
@@ -22,6 +26,10 @@
   font-style: italic;
 }
 
+._u-Width-160 {
+  width: 160px;
+}
+
 ._u-Width-202 {
   width: 202px;
 }
@@ -34,8 +42,16 @@
   width: 370px;
 }
 
+._u-MaxWidth-480 {
+  max-width: 480px;
+}
+
 ._u-MaxWidth-500 {
   max-width: 500px;
+}
+
+._u-MaxWidth-620 {
+  max-width: 620px;
 }
 
 ._u-Display-inlineBlock {

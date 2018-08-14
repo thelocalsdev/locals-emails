@@ -1,0 +1,35 @@
+._EmailDescBlock {
+  margin-bottom: 60px;
+}
+
+._EmailDescBlock__image {
+  width: 180px;
+  margin: 0 20px 20px 0;
+}
+
+._EmailDescBlock__image--manWithBook {
+  img {
+    margin-left: 47px;
+  }
+}
+
+._EmailDescBlock__image--twoPeople {
+  img {
+    margin-left: 28px;
+  }
+}
+
+._EmailDescBlock__image--manWithMagnifier {
+  img {
+    margin-left: 40px;
+  }
+}
+
+._EmailDescBlock__cta {
+  margin-top: 20px;
+}
+
+._EmailDescBlock__ctaButton {
+  margin: 15px 15px 0 0;
+  vertical-align: top;
+}

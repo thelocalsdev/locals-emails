@@ -1,0 +1,21 @@
+._EmailImageFrame {
+  width: 280px;
+  height: 242px;
+  margin-bottom: 40px;
+}
+
+._EmailImageFrame__content {
+  width: 100%;
+  height: 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-image: url('img/frame.png');
+  background-size: contain;
+  text-align: center;
+  vertical-align: middle;
+
+  img {
+    width: calc(320 * 100% / 516);
+    vertical-align: middle;
+  }
+}

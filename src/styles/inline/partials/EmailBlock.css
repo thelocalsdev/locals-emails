@@ -30,6 +30,10 @@
   margin-top: 30px;
 }
 
+._EmailBlock__cta--mt35 {
+  margin-top: 35px;
+}
+
 ._EmailBlock__cta--social-buttons {
   margin-top: 25px;
 
@@ -48,6 +52,10 @@
 
 ._EmailBlock--maxw500 {
   max-width: 500px;
+}
+
+._EmailBlock--maxw520 {
+  max-width: 520px;
 }
 
 ._EmailBlock--mt60 {
