@@ -6,3 +6,8 @@
   line-height: 28px;
   font-family: var(--font-family-base);
 }
+
+._EmailH2--normal {
+  margin-bottom: 12px;
+  line-height: 30px;
+}

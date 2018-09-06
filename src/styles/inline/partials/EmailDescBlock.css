@@ -25,6 +25,32 @@
   }
 }
 
+._EmailDescBlock__image--manAndDumbbells {
+  img {
+    margin-left: 28px;
+  }
+}
+
+._EmailDescBlock__image--inspection {
+  img {
+    margin-left: 67px;
+  }
+}
+
+._EmailDescBlock__title {
+  margin-bottom: 14px;
+  color: var(--color-base);
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: var(--font-family-base);
+}
+
+._EmailDescBlock__title--normal {
+  margin-bottom: 12px;
+  line-height: 30px;
+}
+
 ._EmailDescBlock__cta {
   margin-top: 20px;
 }
