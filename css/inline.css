@@ -220,6 +220,11 @@ td {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+._EmailH2--normal {
+  margin-bottom: 12px;
+  line-height: 30px;
+}
+
 ._EmailText {
   color: #000000;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -740,15 +745,6 @@ td {
     margin-bottom: 0;
   }
 
-._EmailDescBlock__title {
-  margin-bottom: 14px;
-  color: #000000;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
 ._EmailIcon {
   margin-bottom: 20px;
   line-height: 0;
@@ -851,6 +847,28 @@ td {
 ._EmailDescBlock__image--manWithMagnifier img {
     margin-left: 40px;
   }
+
+._EmailDescBlock__image--manAndDumbbells img {
+    margin-left: 28px;
+  }
+
+._EmailDescBlock__image--inspection img {
+    margin-left: 67px;
+  }
+
+._EmailDescBlock__title {
+  margin-bottom: 14px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 28px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+._EmailDescBlock__title--normal {
+  margin-bottom: 12px;
+  line-height: 30px;
+}
 
 ._EmailDescBlock__cta {
   margin-top: 20px;
