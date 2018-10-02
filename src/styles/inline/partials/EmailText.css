@@ -5,8 +5,16 @@
   line-height: var(--line-height-base);
 }
 
+._EmailText--mb0 {
+  margin-bottom: 0;
+}
+
 ._EmailText--mb8 {
   margin-bottom: 8px;
+}
+
+._EmailText--mb10 {
+  margin-bottom: 10px;
 }
 
 ._EmailText--mb15 {

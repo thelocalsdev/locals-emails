@@ -1,0 +1,59 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock._EmailBlock--mb80
+      .EmailH1._EmailH1 Привет, это Локалс
+      ._EmailText._EmailText--mb20._u-TextAlign-left Осень. Погожие солнечные деньки сменились на&nbsp;прохладные и&nbsp;пасмурные, на&nbsp;рынке аренды все ищут уютное гнездо для зимовки, а&nbsp;мы&nbsp;спешим разбавить ваши будни порцией интересных и&nbsp;полезных новостей про наш сервис.
+      ._EmailText._EmailText--mb20._u-TextAlign-left
+        b._u-FontWeight-bold В&nbsp;эфире октябрьский выпуск. Погнали!
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--manInCoatAndBook
+        img(width="80", height="151", src="img/desc/man_in_coat_and_book.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailH2--normal._EmailDescBlock__title._EmailDescBlock__title--normal Новый Личный кабинет
+        ._EmailText Порадуем всех пользователей услуги &laquo;Личный помощник&raquo;. Больше никаких писем! Теперь ваша персональная подборка доступна <a class="EmailLink _EmailLink _EmailLink--no-underline _EmailLink--green" href="#" title="в Личном кабинете">в&nbsp;Личном кабинете</a> на&nbsp;отдельной странице сайта. Вы&nbsp;можете видеть актуальный статус каждого объявления и&nbsp;общаться с&nbsp;помощником в&nbsp;чате, чтобы оперативно обсуждать варианты. А&nbsp;значит, квартира мечты найдется еще быстрее.
+    .EmailHr._EmailHr._u-MaxWidth-620
+    .EmailBlock._EmailBlock._EmailBlock--mb80
+      .EmailH2._EmailH2._EmailH2--normal Лучший личный помощник
+      ._EmailText._EmailText--mb0._u-TextAlign-left Недавно мы&nbsp;провели внутреннюю оценку эффективности личных помощников на&nbsp;основе ваших отзывов. Лучшим стал Андрей Козак.
+      ._EmailBestStaff._EmailBestStaff--center
+        img(width="256", height="185", src="img/best_staff_october.png", alt="")
+      ._EmailText._EmailText--mb25._u-TextAlign-left Андрей работает личным помощником 10&nbsp;месяцев и&nbsp;за&nbsp;это время успел найти для своих клиентов около сотни квартир. Однажды ему пришлось искать &laquo;самую уродливую квартиру&raquo; для художников, которые хотели превратить жилье в&nbsp;объект творческих экспериментов. А&nbsp;самым сложным был поиск дома для клиента с&nbsp;двумя мейн-кунами. Отказов было много, но&nbsp;в&nbsp;итоге нужный вариант все-таки нашелся.
+      ._EmailText._EmailText--mb20._u-TextAlign-left Хотите, чтобы Андрей стал вашим личным помощником? Заполните заявку и&nbsp;укажите его имя в&nbsp;комментарии.
+      ._EmailBlock__cta._EmailBlock__cta--mt35
+        a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--green._EmailButton--fs15._EmailButton--ph40._u-TextAlign-center(href="#", title="Заполнить заявку", target="_blank") Заполнить заявку
+    .EmailHr._EmailHr._u-MaxWidth-620
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--manInCoatAndScooter
+        img(width="136", height="160", src="img/desc/man_in_coat_and_scooter.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailH2--normal._EmailDescBlock__title._EmailDescBlock__title--normal Новый фильтр поиска<br /> в&nbsp;iOS-приложении
+        ._EmailText Добавили фильтрацию по&nbsp;расстоянию до&nbsp;метро, как пешком, так и&nbsp;на&nbsp;транспорте.
+        ._EmailDescBlock__cta
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--green._EmailButton--fs15._EmailButton--ph40._u-TextAlign-center._EmailDescBlock__ctaButton(href="#", title="Попробовать", target="_blank") Попробовать
+    .EmailHr._EmailHr._u-MaxWidth-620
+    ._EmailBlock.EmailDescBlock._EmailDescBlock._u-TextAlign-left
+      .EmailDescBlock__image._EmailDescBlock__image._EmailDescBlock__image--manInCoatAndBag
+        img(width="61", height="163", src="img/desc/man_in_coat_and_bag.png", alt="")
+      .EmailDescBlock__content._EmailDescBlock__content
+        .EmailH2._EmailH2._EmailH2--normal._EmailDescBlock__title._EmailDescBlock__title--normal Гид по&nbsp;аренде: переезд
+        ._EmailText Рассказали, как правильно упаковывать и&nbsp;перевозить нажитое добро, и&nbsp;сделали обзор самых популярных сервисов для переезда.
+        ._EmailDescBlock__cta
+          a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--green._EmailButton--fs15._EmailButton--ph40._u-TextAlign-center._EmailDescBlock__ctaButton(href="#", title="Подробнее", target="_blank") Подробнее
+    .EmailHr._EmailHr._u-MaxWidth-620
+    .EmailBlock._EmailBlock._EmailBlock--maxw520
+      ._u-MaxWidth-480
+        .EmailH2._EmailH2._EmailH2--normal Квартира месяца: дизайнерская трешка с&nbsp;панорамным остеклением
+        ._EmailText._EmailText--mb20._u-TextAlign-left Очередной выпуск рубрики &laquo;Квартира месяца&raquo;.
+      table.EmailImageFrame._EmailImageFrame
+        tr
+          td._EmailImageFrame__content
+            img(src="img/test_image.jpg", alt="")
+      ._u-MaxWidth-480
+        ._EmailText._EmailText--mb20._u-TextAlign-left Просторная и&nbsp;светлая трешка на&nbsp;Соколе с&nbsp;панорамным остеклением. Стильный монохромный интерьер, украшенный предметами искусства, простор, роскошь и&nbsp;два санузла :)
+        ._EmailBlock__cta._EmailBlock__cta--mt35
+          ._u-Display-inlineBlock._u-Width-160
+            a.EmailButton.EmailButton--green._EmailButton._EmailButton--lg._EmailButton--block._EmailButton--green._EmailButton--fs15._EmailButton--ph40._u-TextAlign-center(href="#", title="Подробнее", target="_blank") Подробнее
+    .EmailBlock._EmailBlock
+      ._EmailText._u-FontStyle-italic._u-TextAlign-left._u-fs15 Хорошего дня!<br /> Команда Локалс.

@@ -1,0 +1,11 @@
+._EmailBestStaff {
+  margin-bottom: 35px;
+}
+
+._EmailBestStaff--right {
+  text-align: center;
+
+  img {
+    margin-left: 10%;
+  }
+}

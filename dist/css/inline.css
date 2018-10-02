@@ -232,8 +232,16 @@ td {
   line-height: 22px;
 }
 
+._EmailText--mb0 {
+  margin-bottom: 0;
+}
+
 ._EmailText--mb8 {
   margin-bottom: 8px;
+}
+
+._EmailText--mb10 {
+  margin-bottom: 10px;
 }
 
 ._EmailText--mb15 {
@@ -414,6 +422,11 @@ td {
 ._EmailButton--ph25 {
   padding-right: 25px;
   padding-left: 25px;
+}
+
+._EmailButton--ph40 {
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
 ._EmailNumber {
@@ -856,6 +869,20 @@ td {
     margin-left: 67px;
   }
 
+._EmailDescBlock__image--manInCoatAndBook img {
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+
+._EmailDescBlock__image--manInCoatAndScooter img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+._EmailDescBlock__image--manInCoatAndBag img {
+    margin-left: 60px;
+  }
+
 ._EmailDescBlock__title {
   margin-bottom: 14px;
   color: #000000;
@@ -900,4 +927,16 @@ td {
 ._EmailImageFrame__content img {
     width: 62.0155%;
     vertical-align: middle;
+  }
+
+._EmailBestStaff {
+  margin-bottom: 35px;
+}
+
+._EmailBestStaff--right {
+  text-align: center;
+}
+
+._EmailBestStaff--right img {
+    margin-left: 10%;
   }

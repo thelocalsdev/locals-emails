@@ -37,6 +37,26 @@
   }
 }
 
+._EmailDescBlock__image--manInCoatAndBook {
+  img {
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+}
+
+._EmailDescBlock__image--manInCoatAndScooter {
+  img {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+}
+
+._EmailDescBlock__image--manInCoatAndBag {
+  img {
+    margin-left: 60px;
+  }
+}
+
 ._EmailDescBlock__title {
   margin-bottom: 14px;
   color: var(--color-base);
