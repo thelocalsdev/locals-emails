@@ -39,7 +39,7 @@
 }
 
 ._u-MaxWidth-370 {
-  width: 370px;
+  max-width: 370px;
 }
 
 ._u-MaxWidth-480 {
@@ -56,4 +56,9 @@
 
 ._u-Display-inlineBlock {
   display: inline-block;
+}
+
+._u-Block-center {
+  margin-right: auto;
+  margin-left: auto;
 }

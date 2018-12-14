@@ -134,4 +134,15 @@
     width: 520px !important;
     height: 454px !important;
   }
+
+  .EmailLeadText {
+    font-size: 18px !important;
+    line-height: 27px !important;
+  }
+
+  .EmailBestStaff--december {
+    img {
+      margin-left: 128px;
+    }
+  }
 }

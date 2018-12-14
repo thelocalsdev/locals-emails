@@ -57,6 +57,32 @@
   }
 }
 
+._EmailDescBlock__image--girlWithMobile {
+  vertical-align: middle !important;
+
+  img {
+    margin-left: 42px;
+  }
+
+  & ~ ._EmailDescBlock__content {
+    vertical-align: middle !important;
+  }
+}
+
+._EmailDescBlock__image--christmasTree {
+  img {
+    margin-top: 22px;
+    margin-left: 34px;
+  }
+}
+
+._EmailDescBlock__image--girlSkating {
+  img {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+}
+
 ._EmailDescBlock__title {
   margin-bottom: 14px;
   color: var(--color-base);
