@@ -60,7 +60,7 @@ td {
 }
 
 ._u-MaxWidth-370 {
-  width: 370px;
+  max-width: 370px;
 }
 
 ._u-MaxWidth-480 {
@@ -77,6 +77,11 @@ td {
 
 ._u-Display-inlineBlock {
   display: inline-block;
+}
+
+._u-Block-center {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ._EmailLayout {
@@ -230,6 +235,14 @@ td {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
   line-height: 22px;
+}
+
+._EmailText--lead {
+  color: #7f7f7f;
+  font-size: 16px;
+  line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 ._EmailText--mb0 {
@@ -463,6 +476,19 @@ td {
     margin-top: 50px;
   }
 
+._EmailBlock__image {
+  margin-bottom: 24px;
+}
+
+._EmailBlock__image--manLying {
+  text-align: right;
+}
+
+._EmailBlock__image--manLying img {
+    width: 100%;
+    max-width: 420px;
+  }
+
 ._EmailBlock__cta {
   margin-top: 40px;
 }
@@ -512,12 +538,24 @@ td {
   max-width: 520px;
 }
 
+._EmailBlock--maxw620 {
+  max-width: 620px;
+}
+
 ._EmailBlock--mt60 {
   margin-top: 60px;
 }
 
+._EmailBlock--mb20 {
+  margin-bottom: 20px;
+}
+
 ._EmailBlock--mb30 {
   margin-bottom: 30px;
+}
+
+._EmailBlock--mb40 {
+  margin-bottom: 40px;
 }
 
 ._EmailBlock--mb80 {
@@ -883,6 +921,28 @@ td {
     margin-left: 60px;
   }
 
+._EmailDescBlock__image--girlWithMobile {
+  vertical-align: middle !important;
+}
+
+._EmailDescBlock__image--girlWithMobile img {
+    margin-left: 42px;
+  }
+
+._EmailDescBlock__image--girlWithMobile ~ ._EmailDescBlock__content {
+    vertical-align: middle !important;
+  }
+
+._EmailDescBlock__image--christmasTree img {
+    margin-top: 22px;
+    margin-left: 34px;
+  }
+
+._EmailDescBlock__image--girlSkating img {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+
 ._EmailDescBlock__title {
   margin-bottom: 14px;
   color: #000000;
@@ -939,4 +999,29 @@ td {
 
 ._EmailBestStaff--right img {
     margin-left: 10%;
+  }
+
+._EmailBestStaff--mb24 {
+  margin-bottom: 24px;
+}
+
+._EmailApartmentMonth {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+._EmailApartmentMonth img {
+    width: 100%;
+    max-width: 494px;
+    height: auto;
+  }
+
+._EmailCollage__item {
+  margin-bottom: 40px;
+}
+
+._EmailCollage__item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
