@@ -84,6 +84,10 @@ td {
   margin-left: auto;
 }
 
+._u-MarginBottom-20 {
+  margin-bottom: 20px;
+}
+
 ._EmailLayout {
   background-color: #ffffff;
 }
@@ -397,6 +401,21 @@ td {
     color: #000000;
   }
 
+._EmailButton--blue {
+  border: 1px solid #3E7FE8;
+  color: #ffffff;
+}
+
+._EmailButton--blue:not(._EmailButton--outline) {
+    background-color: #3E7FE8;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+._EmailButton--blue._EmailButton--outline {
+    color: #3E7FE8;
+  }
+
 ._EmailButton--social {
   width: 100px;
 }
@@ -437,9 +456,19 @@ td {
   padding-left: 25px;
 }
 
-._EmailButton--ph40 {
+._EmailButton--px30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+._EmailButton--ph40, ._EmailButton--px40 {
   padding-right: 40px;
   padding-left: 40px;
+}
+
+._EmailButton--rounded {
+  -webkit-border-radius: 50px;
+          border-radius: 50px;
 }
 
 ._EmailNumber {
@@ -731,6 +760,23 @@ td {
 ._EmailOfferCard__metroText {
   font-size: 12px;
   line-height: 15px;
+}
+
+._EmailOfferCard__comment {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: #fff7ea;
+  color: #252525;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+._EmailOfferCard--mb20 {
+  margin-bottom: 20px;
 }
 
 ._EmailActionList__item {
@@ -1025,3 +1071,30 @@ td {
     max-width: 100%;
     height: auto;
   }
+
+._EmailRealAssistant {
+  padding: 5%;
+  background-color: #FDF075;
+  color: #000000;
+  text-align: left;
+}
+
+._EmailRealAssistant__left {
+  width: 75%;
+  padding-right: 3%;
+}
+
+._EmailRealAssistant__right {
+  width: 25%;
+}
+
+._EmailRealAssistant__img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+._EmailRealAssistant__cta {
+  margin-top: 20px;
+}

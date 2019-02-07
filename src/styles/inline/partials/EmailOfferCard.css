@@ -86,3 +86,20 @@
   font-size: 12px;
   line-height: 15px;
 }
+
+._EmailOfferCard__comment {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background-color: #fff7ea;
+  color: #252525;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: var(--font-family-base);
+  text-align: left;
+}
+
+._EmailOfferCard--mb20 {
+  margin-bottom: 20px;
+}

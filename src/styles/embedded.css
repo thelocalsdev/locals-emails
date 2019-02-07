@@ -12,6 +12,14 @@
   }
 }
 
+.EmailButton--blue {
+  &:hover {
+    border-color: #5691ef !important;
+    background-color: #5691ef !important;
+    color: #ffffff !important;
+  }
+}
+
 .EmailButton--greenOutline {
   &:hover {
     border-color: #1bb855 !important;

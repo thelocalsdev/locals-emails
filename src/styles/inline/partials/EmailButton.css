@@ -66,6 +66,20 @@
   }
 }
 
+._EmailButton--blue {
+  border: 1px solid #3E7FE8;
+  color: var(--color-white);
+
+  &:not(._EmailButton--outline) {
+    background-color: #3E7FE8;
+    @include font-smoothing;
+  }
+
+  &._EmailButton--outline {
+    color: #3E7FE8;
+  }
+}
+
 ._EmailButton--social {
   width: 100px;
 
@@ -104,7 +118,17 @@
   padding-left: 25px;
 }
 
-._EmailButton--ph40 {
+._EmailButton--px30 {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+._EmailButton--ph40,
+._EmailButton--px40 {
   padding-right: 40px;
   padding-left: 40px;
+}
+
+._EmailButton--rounded {
+  border-radius: 50px;
 }

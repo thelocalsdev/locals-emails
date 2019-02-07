@@ -1,0 +1,84 @@
+extend ./layout/layout.pug
+
+block content
+  ._EmailLayoutInner
+    .EmailBlock._EmailBlock._EmailBlock--mb40
+      ._EmailIcon._EmailIcon--smile
+        img(src="img/smile.png", alt="")
+      .EmailH1._EmailH1 Привет, это Локалс.
+      ._EmailText._EmailText--mb15._u-TextAlign-left Вот персональная подборка квартир по&nbsp;вашему запросу. Обязательно залогиньтесь на&nbsp;сайте, чтобы иметь доступ ко&nbsp;всем присланным вариантам. Для авторизации используйте адрес электронной почты и&nbsp;пароль.
+      ._EmailText._EmailText--mb20._u-TextAlign-left Пожалуйста, поделитесь впечатлениями от&nbsp;работы с&nbsp;личным помощником. Просто нажмите эту кнопку и&nbsp;ответьте на&nbsp;несколько вопросов. Обещаем, это не&nbsp;займёт много времени!
+    .EmailBlock._EmailBlock
+      ._EmailRealAssistant
+        table
+          tr
+            td._EmailRealAssistant__left
+              ._EmailRealAssistant__title._EmailH2 Бесплатный выезд на заключение договора
+              ._EmailRealAssistant__text._EmailText Привезем выписку из Росреестра, проверим документы собственника и дадим заключение о правомерности сделки.
+              ._EmailRealAssistant__cta
+                a.EmailButton.EmailButton--blue._EmailButton._EmailButton--blue._EmailButton--rounded._EmailButton--lg._EmailButton--px30(href="#", title="Оставить заявку", target="_blank") Оставить заявку
+            td._EmailRealAssistant__right
+              img._EmailRealAssistant__img(src="img/contract.png", alt="")
+    .EmailBlock._EmailBlock
+      ._EmailOfferCard._EmailOfferCard--mb20
+        table
+          tr
+            td._EmailOfferCard__cell._EmailOfferCard__cell--image
+              a._EmailOfferCard__image._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank", style="background-image: url(img/example.jpg);")
+                img._EmailOfferCard__imageImg(width="0", height="0", src="img/example.jpg", alt="Однокомнатная квартира с ремонтом в Ясенево")
+            td._EmailOfferCard__cell._EmailOfferCard__cell--content
+              table._EmailOfferCard__content
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--info
+                    table._EmailOfferCard__info
+                      tr
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--price
+                          ._EmailOfferCard__infoPrice._u-FontFamily-base 35&nbsp;000&nbsp;руб.
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--space
+                          ._EmailOfferCard__infoSpace._u-FontFamily-base 3-к., 34&nbsp;м<span class="_EmailSup">2</span>
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--title
+                    ._EmailOfferCard__title._u-FontFamily-base
+                      a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево") Однокомнатная квартира с ремонтом в Ясенево
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--metro
+                    table._EmailOfferCard__metro
+                      tr
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--icon
+                          a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank")
+                            img._EmailOfferCard__metroImg(width="16", src="img/subway.png", alt="")
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--text
+                          ._EmailOfferCard__metroText._u-FontFamily-base
+                            a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank") Улица Скобелевска…
+        ._EmailOfferCard__comment Комментарий менеджера: квартира чуть меньше по площади, но рядом с парком
+      ._EmailOfferCard
+        table
+          tr
+            td._EmailOfferCard__cell._EmailOfferCard__cell--image
+              a._EmailOfferCard__image._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank", style="background-image: url(img/example.jpg);")
+                img._EmailOfferCard__imageImg(width="0", height="0", src="img/example.jpg", alt="Однокомнатная квартира с ремонтом в Ясенево")
+            td._EmailOfferCard__cell._EmailOfferCard__cell--content
+              table._EmailOfferCard__content
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--info
+                    table._EmailOfferCard__info
+                      tr
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--price
+                          ._EmailOfferCard__infoPrice._u-FontFamily-base 35&nbsp;000&nbsp;руб.
+                        td._EmailOfferCard__infoCell._EmailOfferCard__infoCell--space
+                          ._EmailOfferCard__infoSpace._u-FontFamily-base 3-к., 34&nbsp;м<span class="_EmailSup">2</span>
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--title
+                    ._EmailOfferCard__title._u-FontFamily-base
+                      a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево") Однокомнатная квартира с ремонтом в Ясенево
+                tr
+                  td._EmailOfferCard__contentRow._EmailOfferCard__contentRow--metro
+                    table._EmailOfferCard__metro
+                      tr
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--icon
+                          a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank")
+                            img._EmailOfferCard__metroImg(width="16", src="img/subway.png", alt="")
+                        td._EmailOfferCard__metroCell._EmailOfferCard__metroCell--text
+                          ._EmailOfferCard__metroText._u-FontFamily-base
+                            a._EmailOfferCard__link(href="#", title="Однокомнатная квартира с ремонтом в Ясенево", target="_blank") Улица Скобелевска…
+        ._EmailOfferCard__comment Комментарий менеджера: квартира чуть меньше по площади, но рядом с парком

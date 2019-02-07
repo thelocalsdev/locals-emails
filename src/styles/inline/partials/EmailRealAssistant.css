@@ -1,0 +1,26 @@
+._EmailRealAssistant {
+  padding: 5%;
+  background-color: #FDF075;
+  color: var(--color-black);
+  text-align: left;
+}
+
+._EmailRealAssistant__left {
+  width: 75%;
+  padding-right: 3%;
+}
+
+._EmailRealAssistant__right {
+  width: 25%;
+}
+
+._EmailRealAssistant__img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+._EmailRealAssistant__cta {
+  margin-top: 20px;
+}
