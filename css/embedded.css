@@ -110,6 +110,11 @@
     padding-left: 30px !important;
   }
 
+  ._EmailPromoService {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+  }
+
   .EmailDescBlock {
     font-size: 0;
   }

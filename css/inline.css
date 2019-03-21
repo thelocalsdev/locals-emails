@@ -447,6 +447,21 @@ td {
     color: #000000;
   }
 
+._EmailButton--white {
+  border: 1px solid #fff;
+  color: #000000;
+}
+
+._EmailButton--white:not(._EmailButton--outline) {
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+._EmailButton--white._EmailButton--outline {
+    color: #fff;
+  }
+
 ._EmailButton--blue {
   border: 1px solid #3E7FE8;
   color: #ffffff;
@@ -658,6 +673,10 @@ td {
   margin-bottom: 20px;
 }
 
+._EmailBlock--mb25 {
+  margin-bottom: 25px;
+}
+
 ._EmailBlock--mb30 {
   margin-bottom: 30px;
 }
@@ -749,7 +768,7 @@ td {
     width: 120px;
   }
 
-._EmailCircleIcon--yes2 img, ._EmailCircleIcon--clock2 img {
+._EmailCircleIcon--yes2 img, ._EmailCircleIcon--sandglass img, ._EmailCircleIcon--detective img, ._EmailCircleIcon--myself img {
     width: 150px;
     height: 150px;
   }
@@ -757,6 +776,11 @@ td {
 ._EmailCircleIcon--yogi img {
     width: 160px;
     height: 163px;
+  }
+
+._EmailCircleIcon--go2 img {
+    width: 266px;
+    height: 150px;
   }
 
 ._EmailAssistant {
@@ -1241,7 +1265,7 @@ td {
 }
 
 ._EmailCtaBlock__button {
-  width: 216px;
+  /* width: 216px; */
   padding-top: 17px;
   padding-right: 30px;
   padding-bottom: 19px;
@@ -1305,3 +1329,98 @@ td {
     width: 30px;
     height: 30px;
   }
+
+._EmailPromoService {
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #FFF15B;
+}
+
+._EmailPromoService ._EmailFeatureBlock__image {
+    width: 13.6363636%;
+  }
+
+._EmailPromoService ._EmailFeatureBlock__image img {
+      max-width: 60px;
+      width: 100%;
+      height: auto;
+    }
+
+._EmailPromoService ._EmailCtaBlock__button {
+    width: auto;
+    display: block;
+    max-width: 212px;
+  }
+
+._EmailPromoService ._EmailCtaBlock__afterButton {
+    color: #000;
+    opacity: .5;
+  }
+
+._EmailReviewCards {
+  font-size: 0;
+}
+
+._EmailReviewCards__col {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+._EmailReviewCards__col:first-child {
+    padding-right: 10px;
+  }
+
+._EmailReviewCards__col:last-child {
+    padding-left: 10px;
+  }
+
+._EmailReviewCard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, .05);
+          box-shadow: 0 0 13px rgba(0, 0, 0, .05);
+}
+
+._EmailReviewCard__header {
+  padding-right: 14px;
+  padding-left: 20px;
+}
+
+._EmailReviewCard__header > table {
+    margin-bottom: 14px;
+  }
+
+._EmailReviewCard__headerRight {
+  width: 66px;
+}
+
+._EmailReviewCard__user {
+  margin-bottom: 2px;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+._EmailReviewCard__ratingStar {
+  width: 20px;
+  height: 20px;
+}
+
+._EmailReviewCard__avatar {
+  width: 66px;
+  height: 66px;
+}
+
+._EmailReviewCard__content {
+  padding-right: 20px;
+  padding-left: 20px;
+}
