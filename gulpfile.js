@@ -77,7 +77,7 @@ var CONFIG = {
 }
 
 gulp.task('[Emails] Clean', function(){
-  return del(CONFIG.clean.dest);
+  // return del(CONFIG.clean.dest);
 });
 
 gulp.task('[Emails] Images', function(){
@@ -154,7 +154,7 @@ gulp.task('[Emails] GithubPages', function(){
 });
 
 gulp.task('[Emails] Watch', ['[Emails] BrowserSync'], function(){
-  watch(SRC + '/image/**/*', function(){
+  watch(SRC + '/images/**/*', function(){
     gulp.start(['[Emails] Images']);
   });
 
