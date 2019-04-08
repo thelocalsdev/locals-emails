@@ -14,12 +14,6 @@
     color: #ffffff !important;
   }
 
-.EmailButton--blue2:hover {
-    border-color: #2d8dff !important;
-    background-color: #2d8dff !important;
-    color: #ffffff !important;
-  }
-
 .EmailButton--greenOutline:hover {
     border-color: #1bb855 !important;
     background-color: #1bb855 !important;
@@ -80,7 +74,7 @@
 @media screen and (min-width: 768px) {
   .EmailH1 {
     font-size: 32px !important;
-    line-height: 36px !important;
+    line-height: 35px !important;
   }
 
   .EmailBlock--margin-bottom-lg {
@@ -108,11 +102,6 @@
   .EmailAssistant {
     padding-right: 30px !important;
     padding-left: 30px !important;
-  }
-
-  ._EmailPromoService {
-    padding-right: 40px !important;
-    padding-left: 40px !important;
   }
 
   .EmailDescBlock {
