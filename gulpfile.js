@@ -63,6 +63,12 @@ var CONFIG = {
     ],
     dest: DIST
   },
+  htmlTemplates: {
+    src: [
+      SRC + '/html_templates/**/*.html',
+    ],
+    dest: DIST
+  },
   html: {
     src: DIST + '/*.html',
     inlineCss: {
@@ -133,6 +139,12 @@ gulp.task('[Emails] Templates', function(){
     .pipe(gulp.dest(CONFIG.templates.dest));
 });
 
+gulp.task('[Emails] Html Templates', function(){
+  return gulp.src(CONFIG.htmlTemplates.src)
+    .on('error', gutil.log)
+    .pipe(gulp.dest(CONFIG.htmlTemplates.dest));
+});
+
 gulp.task('[Emails] Html', function(){
   return gulp.src(CONFIG.html.src)
     .pipe(inlineCss(CONFIG.html.inlineCss.options).on('error', gutil.log))
@@ -167,6 +179,7 @@ gulp.task('[Emails] Watch', ['[Emails] BrowserSync'], function(){
         '[Emails] InlineStyles',
         '[Emails] EmbeddedStyles',
         '[Emails] Templates',
+        '[Emails] Html Templates',
       ],
       '[Emails] Html'
     )
@@ -180,6 +193,7 @@ gulp.task('build', ['[Emails] Clean'], function(cb){
       '[Emails] InlineStyles',
       '[Emails] EmbeddedStyles',
       '[Emails] Templates',
+      '[Emails] Html Templates',
     ],
     '[Emails] Html',
     cb
