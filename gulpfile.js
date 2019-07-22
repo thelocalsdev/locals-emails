@@ -173,6 +173,7 @@ gulp.task('[Emails] Watch', ['[Emails] BrowserSync'], function(){
   watch([
     SRC + '/styles/**/*',
     SRC + '/templates/**/*',
+    SRC + '/html_templates/**/*',
   ], function(){
     runSequence(
       [
