@@ -34,7 +34,7 @@
 }
 
 ._EmailLayoutHeader__col {
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 ._EmailLayoutHeader__col--left {
@@ -49,7 +49,7 @@
 ._EmailLayoutHeader__logoImg {
   width: 100%;
   max-width: 150px;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 ._EmailLayoutHeader__desc {
