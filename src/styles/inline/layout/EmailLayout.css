@@ -49,7 +49,7 @@
 ._EmailLayoutHeader__logoImg {
   width: 100%;
   max-width: 150px;
-  vertical-align: baseline;
+  vertical-align: bottom;
 }
 
 ._EmailLayoutHeader__desc {
